@@ -35,27 +35,62 @@
     text-align: center;
 }
 a{
-    border: 1px solid darkgray;
-    padding: 5px;
-
+    
+    text-decoration:none;
+    font-size: 20px;
+    color:#272c29;
+    padding: 8px 15px;
+    transition: color 1s ease-in-out;
+}
+.anchor-div{
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    transition: background-color 1s ease-in-out;
+    
+   
+}
+.main-ancr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-div{ 
-    border: 2px solid tomato;
+    border: 2px solid rgb(25, 24, 23);
     border-radius: 10px;
     padding: 5px;
     margin: 15px;
     display: block;
-    flex:0 1 300px;
+    flex:1 1 300px;
 
 }
 .main-div{
     display: flex;
-    flex-flow:row wrap;
-    justify-content:space-evenly;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 
 }
 .div-text{
     font-size:20px;   
     padding: 5px;
 
+}
+.anchor-div:hover{
+    background-color:#039b68;
+    color:aliceblue;
+}
+a:hover{
+    color: whitesmoke;
+}
+.one{
+    order: 1;
+}
+.two{
+    order: 4;
+}
+.three{
+    order: 3;
+}
+.four{
+    order: 2;
 }
